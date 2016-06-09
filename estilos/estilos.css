@@ -1,0 +1,93 @@
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #9E9E9E;
+}
+
+#contenedor {
+	width: 1600px;
+	height: 2000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header, #banner, #noticias #carreras #otro {
+	background: #B71C1C;
+	width: 1600px;
+	height: 140px;
+	font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+
+}
+div {
+	border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+header.page-header .page-header-row{
+	/*padding: 2.118933698%;*/
+    min-height: initial;
+}
+header.page-header .row{
+	background: #002147;
+    font-family: "PT Sans",'Helvetica Neue',Arial,Helvetica,sans-serif;
+    float: none;
+    display: block;
+    box-sizing: border-box;
+}
+/*LOGO*/
+.logo{
+	float: left;
+    width: 111px;
+    margin-right: -100%;
+    position: relative;
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 20px;}
+.logo a.square {
+    background: url('C:/Users/José/Desktop/UNIOR/paginaUnior/img/logoUniorBlancoRec.png') no-repeat center center;
+    overflow: hidden;
+    text-indent: -9999%;}
+header.page-header .logo a.square {
+    display: block;
+    width: 200px;
+    height: 120px;
+    background-size: 100% 100%;}
+/*LOGO*/
+
+#banner {
+	background: #616161;
+	height: 580px;
+}
+
+img.banner1{
+	width: 1600px;
+	height: 580px;
+}
+
+#noticias {
+	background: #B71C1C;
+	height: 420px;
+}
+
+#carreras {
+	background: #616161;
+	height: 420px;
+}
+
+#otro {
+	background: #B71C1C;
+	height: 420px;
+}
+
+footer {
+	background: #B71C1C;
+	height: 100px;
+	width: 1600px;
+	margin-top: 5px;
+}
